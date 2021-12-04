@@ -1,0 +1,30 @@
+{
+  "maven": {
+    "artifactId": "my-project",
+    "groupId": "ru.peter"
+  },
+
+  "application": {
+    "port": 8080,
+    "databaseName": "my-project"
+  },
+
+  "project": {
+    "applicationClassName": "MyProject",
+    "country": "ru",
+    "company": "peter",
+
+    "firstEntity": {
+      "name": "game",
+      "nameUpper": "Game",
+      "endpointName": "games",
+      "fields": [
+        {
+          "type": "String",
+          "name": "name",
+          "nameUpper": "Name"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+server:
+  port: {{application.port}}
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: {{application.databaseName}}
+
+chess:
+  security:
+    auth:
+      secret: UALHFiuho7cyr43n9m8AXMUP(X*N#y40YNPCO#*YNpc(YMROCP
+      expiration_time: 10800
